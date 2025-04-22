@@ -1,0 +1,6 @@
+# Ignore native platform code in Android/iOS 
+android/** linguist-vendored
+ios/** linguist-vendored
+
+# Tell GitHub to prioritize Dart code in the lib directory
+lib/** linguist-detectable=true
